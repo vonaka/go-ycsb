@@ -76,6 +76,8 @@ import (
 	_ "github.com/pingcap/go-ycsb/db/etcd"
 	// Register dynamodb
 	_ "github.com/pingcap/go-ycsb/db/dynamodb"
+	// Register shreplic
+	_ "github.com/pingcap/go-ycsb/db/shreplic"
 )
 
 var (
